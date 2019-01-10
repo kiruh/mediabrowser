@@ -1,5 +1,5 @@
 from django.views.generic import ListView, CreateView, View
-from django.core.urlresolvers import reverse, reverse_lazy
+from django.urls import reverse, reverse_lazy
 from django.core.exceptions import PermissionDenied
 from django.utils.translation import activate
 from django.conf import settings
